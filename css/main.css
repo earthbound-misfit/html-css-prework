@@ -1,0 +1,246 @@
+body {
+    background: #A4EAE1;
+    background-repeat: no-repeat;
+}
+
+#main {
+    height: 50vh;
+}
+
+nav ul{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav li {
+    display: inline;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 50px;
+    float: right;
+}
+
+.welcome p {
+    color: white;
+    text-align: left;
+    font-family: "Lobster", cursive;
+    font-size: 75px;
+    color: rgb(248, 170, 141);
+    margin-left: 150px;
+}
+
+#occupation {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #B29ECE;
+    text-align: left;
+    margin-left: 8px;
+}
+
+#sun {
+    height: 50px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 233, 171);
+}
+
+#profile-pic {
+    float: right;
+    border-radius: 50%;
+    height: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+}
+
+#who-is-kelly {
+    background-color:rgb(248, 170, 141);
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+
+#who-is-kelly h1 {
+    color: white;
+    text-align: center;
+    font-family: Lobster, cursive;
+    font-size: 50px;
+    padding-top: 75px;
+}
+
+#who-is-kelly p {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#projects {
+    background-color:#A4EAE1;
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+
+#projects h1 {
+    color: white;
+    text-align: center;
+    font-family: Lobster, cursive;
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+#projects p {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#weather-app {
+    display: block;
+    border: none;
+    border-radius: 10px;
+    width: 600px;
+    height: 525px;
+    margin: 0 auto;
+}
+
+#work-with-me {
+    background-color: rgb(248, 170, 141);
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+
+#work-with-me h1 {
+    color: white;
+    text-align: center;
+    font-family: Lobster, cursive;
+    font-size: 50px;
+    padding-top: 75px;
+}
+
+#work-with-me p {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#first-name,
+#last-name {
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    line-height: 2em;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#contact-me {
+    text-align: center;
+}
+
+#message {
+    height: 100px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#submit-button {
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-family: Lobster, cursive;
+    font-size: 20px;
+    background-color:#A4EAE1;
+    color:white;
+}
+
+/*
+
+a:visited {
+    color: white;
+}
+
+#about-me {
+    color:#ffffff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    text-align:center;
+}
+
+#profile {
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin-top: 50px;
+}
+
+
+h1{
+    font-size: 170px;
+}
+
+#kelly-karner p {
+    font-size: 70px;
+}
+
+#about-me {
+    padding: 40px;
+}
+
+#about-me, #contact-me p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+#about-me, #contact-me h1, h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+    border-radius: 8px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#first-name, #last-name {
+    width: 245px;
+    border-radius: 5px;
+    border: none;
+    line-height: 2em;
+}
+
+#contact-me {
+    text-align: center;
+}
+
+
+#submit-button {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px;
+}
+
+/*
